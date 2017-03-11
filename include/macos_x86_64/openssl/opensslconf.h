@@ -122,8 +122,8 @@ extern "C" {
 
 #if !(defined(VMS) || defined(__VMS)) /* VMS uses logical names instead */
 #if defined(HEADER_CRYPTLIB_H) && !defined(OPENSSLDIR)
-#define ENGINESDIR "/Users/sundaowen/libsundaowen_openssl_build/openssl/macos_x86_64/lib/engines"
-#define OPENSSLDIR "/Users/sundaowen/libsundaowen_openssl_build/openssl/macos_x86_64/ssl"
+#define ENGINESDIR "/tmp/libsundaowen_openssl/macos_x86_64/lib/engines"
+#define OPENSSLDIR "/tmp/libsundaowen_openssl/macos_x86_64/ssl"
 #endif
 #endif
 
